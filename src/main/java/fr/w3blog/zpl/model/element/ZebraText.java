@@ -114,7 +114,8 @@ public class ZebraText extends ZebraElement {
 	 * 
 	 * @param graphic
 	 */
-	public void drawPreviewGraphic(PrinterOptions printerOptions, Graphics2D graphic) {
+	@Override
+    public void drawPreviewGraphic(PrinterOptions printerOptions, Graphics2D graphic) {
 		if (defaultDrawGraphic) {
 			int top = 0;
 			int left = 0;

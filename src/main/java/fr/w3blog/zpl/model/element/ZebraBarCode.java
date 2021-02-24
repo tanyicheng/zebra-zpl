@@ -161,6 +161,7 @@ public abstract class ZebraBarCode extends ZebraElement {
 	 * 
 	 * @param graphic
 	 */
+	@Override
 	public void drawPreviewGraphic(PrinterOptions printerOptions, Graphics2D graphic) {
 		int top = 0;
 		int left = 0;

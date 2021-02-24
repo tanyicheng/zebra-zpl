@@ -70,6 +70,7 @@ public class ZebraUtils {
 	public static void printZpl(String zpl, String printerName) throws ZebraPrintException {
 		try {
 
+			System.out.println(zpl);
 			PrintService psZebra = null;
 			String sPrinterName = null;
 			PrintService[] services = PrintServiceLookup.lookupPrintServices(null, null);

@@ -43,7 +43,8 @@ public class ZebraGraficBox extends ZebraElement {
         return zpl.toString();
 	}
 	
-	protected String getZplCodePosition() {
+	@Override
+    protected String getZplCodePosition() {
         StringBuffer zpl = new StringBuffer("");
         if (positionX != null && positionY != null) {
             zpl.append(ZplUtils.zplCommand("FO", positionX, positionY));
